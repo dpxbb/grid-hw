@@ -8,9 +8,9 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-areas: 
-        "header         header      navbar"
-        "contents       contents    navbar"
-        "footer         footer      footer";
+        "header            header      navbar"
+        "contents1         contents1   navbar"
+        "footer            footer      footer";
 }
 
 body
@@ -35,9 +35,9 @@ body
     
 }
 
-.contents 
+.contents1 
 {
-    grid-area: contents; 
+    grid-area: contents1; 
     display: inline-flex;
     margin: 0;
 }
